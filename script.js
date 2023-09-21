@@ -6,6 +6,6 @@ document.getElementById("enterBtn").addEventListener("click", function() {
 	statusParagraph.textContent = "Entered Metaverse";
 
 	// Display the text in an <h1> tag 
-	document.getElementById("result").textContent = statusParagraph.textContent;
+	document.getElementById("status").textContent = statusParagraph.textContent;
 });
 //your JS code here. If required.
